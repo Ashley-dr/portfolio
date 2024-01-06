@@ -19,7 +19,7 @@ const About = () => {
   return (
     <div className='h-[500px] m-auto absolute w-full mt-80'>
       <div id='about' className='max-w-[800px] m-auto  mt-20 pt-32'>
-        <h1 className='text-white font-bold font-bebas text-emerald-300 text-center mb-10'>About</h1>
+        <h1 className='text-white font-bold font-bebas text-emerald-200 text-center mb-10'>About</h1>
       {dataArray.map((items,id) => (
         <AboutItem 
         key={id}

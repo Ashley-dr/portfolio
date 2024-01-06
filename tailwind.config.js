@@ -23,11 +23,12 @@ export default {
       'body': ['"Open Sans"'],
       'bebas': ['Bebas Neue', 'sans-serif'],
       'bebos': ['Raleway', 'sans-serif'],
+      'roboto': ['Roboto Mono', 'monospace'],
     },
     extend: {
       spacing: {
         '220x': '1150px',
-        '440x':'4150px',
+        '440x':'3450px',
       }
     },
   },

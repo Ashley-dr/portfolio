@@ -1,26 +1,24 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import Sidenav from './components/Sidenav'
-import Main from './components/Main'
-import About from './components/About'
-import Projects from './components/Projects'
-import Tech from './components/Tech'
-import Contact from './components/Contact'
+import Sidenav from "./components/Sidenav";
+import Main from "./components/Main";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Tech from "./components/Tech";
+import Contact from "./components/Contact";
 
 function App() {
-
   return (
     <>
       <div>
-     
-      <Sidenav />
-      <Main/>
-      <About/>
-      <Projects/>
-      <Contact/>
+        <Sidenav />
+        <Main />
+        <About />
+        <Projects />
+        <Contact />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
