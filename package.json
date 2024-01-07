@@ -14,7 +14,7 @@
     "react": "^18.2.0",
     "react-background-animation": "^1.0.1",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0",
+    "react-icons": "^4.12.0",
     "react-text-gradients-and-animations": "^1.1.7",
     "react-type-animation": "^3.0.1"
   },
