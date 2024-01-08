@@ -9,6 +9,9 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "bin" : {
+    "execute" : "index.js"
+},
   "dependencies": {
     "jquery": "^3.7.0",
     "latest": "^0.2.0",
