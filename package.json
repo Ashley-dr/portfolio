@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "bin" : {
-    "execute" : "index.js"
+    "execute" : "main.jsx"
 },
   "dependencies": {
     "jquery": "^3.7.0",
