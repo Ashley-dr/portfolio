@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { AiFillProject, AiOutlineHome, AiOutlineBuild } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
-import { SiAboutdotme } from "react-icons/Si";
-import { TbBrandGmail } from "react-icons/Tb";
+import { SiAboutdotme } from "react-icons/si";
+import { TbBrandGmail } from "react-icons/tb";
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
 
