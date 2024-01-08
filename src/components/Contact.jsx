@@ -1,5 +1,5 @@
 import React from "react";
-import { TbBrandGmail } from "react-icons/Tb";
+import { TbBrandGmail } from "react-icons/tb";
 import { FaFacebookSquare, FaGithub, FaInstagram } from "react-icons/fa";
 const Contact = () => {
   return (
