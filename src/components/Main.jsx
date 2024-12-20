@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import BackgroundVideo from "/src/assets/bg.mp4";
 import { TypeAnimation } from "react-type-animation";
@@ -7,7 +8,7 @@ import About from "./About";
 
 const Main = () => {
   return (
-    <div id="main">
+    <div id="main" className="">
       <div className="background">
         <video className="background-video" autoPlay loop muted>
           <source src={BackgroundVideo} type="video/mp4" />
@@ -16,11 +17,11 @@ const Main = () => {
 
       <div id="homes" className="w-full h-screen absolute top-0">
         <div
-          className="s:max-w-[300px] xs:max-w-[400px]
+          className="s:max-w-[350px] xs:max-w-[400px]
   sm:max-w-[650px] lg:max-w-[700px] flex flex-col justify-center m-auto h-full"
         >
           <p className="text-lg  mb-1 font-semibold font-bebos tracking-tight text-teal-400">
-            👋 Hi, I'm Ashley Durano Rodriguez
+            👋 Hi, I&apos;m Ashley Durano Rodriguez
           </p>
           <RadialTextGradient
             className="max-w-[500px] sm:text-7xl text-7xl font-bold mb-5"
@@ -35,7 +36,7 @@ const Main = () => {
           </RadialTextGradient>
 
           <span style={{ fontSize: "2em" }}>
-            <span>I'm a</span>{" "}
+            <span>I&apos;m a</span>{" "}
             <TypeAnimation
               sequence={["Designer.", 1000, "Coder.", 1000, "Gamer.", 1000]}
               repeat={Infinity}

@@ -1,20 +1,23 @@
+/* eslint-disable no-unused-vars */
 import { useState } from "react";
 
 import Sidenav from "./components/Sidenav";
 import Main from "./components/Main";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Tech from "./components/Tech";
+
 import Contact from "./components/Contact";
 
 function App() {
   return (
     <>
-      <div>
+      <div className="">
         <Sidenav />
         <Main />
         <About />
+
         <Projects />
+
         <Contact />
       </div>
     </>

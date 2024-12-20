@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { AiFillProject, AiOutlineHome, AiOutlineBuild } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";

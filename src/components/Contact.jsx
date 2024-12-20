@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { TbBrandGmail } from "react-icons/tb";
 import { FaFacebookSquare, FaGithub, FaInstagram } from "react-icons/fa";
 const Contact = () => {
   return (
-    <div className="h-[500px] m-auto absolute w-full mt-440x">
+    <div className="h-[500px] m-auto absolute w-full mt-[260rem]">
       <div id="contact" className="max-w-[800px] pb-20 m-auto">
         <h1 className=" font-bold font-bebas text-emerald-200 text-center mb-10">
           Connect with me.

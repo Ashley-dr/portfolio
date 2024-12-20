@@ -1,28 +1,33 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import AboutItem from "./AboutItem";
 const dataArray = [
   {
     year: "2001-05-14",
     title: "Male",
-    duration: "22 years old",
+    duration: "23 years old",
     details:
-      "Hi, My name is Ashley Durano Rodriguez from Guinsay Danao City Cebu, currently 3rd year College student with a course of Bachelor of Science in Information Technology Major with Programming more on Web developing, as a student I am willing to take much more to learn, beforehand I do some living from developing even though it is not some kind large projects but i believe taking some small effort is a starter for us to grow.",
+      "Hi, I'm Ashley Durano Rodriguez from Guinsay, Danao City, Cebu. I'm a 4th-year Bachelor of Science in Information Technology student, specializing in Programming with a focus on Web Development. As a student, I'm eager to learn and grow. I've already gained some experience by working on small development projects, which I believe are valuable stepping stones toward bigger opportunities.",
     tech1: "Tailwindcss",
     tech2: "JavaScript",
     tech3: "ReactJS",
-    tech4: "Mysql",
+    tech4: "MonggoDB",
     tech5: "Git",
     tech6: "Xml",
+    tech7: "ExpressJS",
+    tech8: "NodeJS",
+    tech9: "Postgree",
+    tech10: "React Native",
   },
 ];
 
 const About = () => {
   return (
-    <div className="h-[500px] m-auto absolute w-full mt-80">
-      <div id="about" className="max-w-[800px] m-auto  mt-20 pt-32">
-        <h1 className=" font-bold font-bebas text-emerald-200 text-center mb-10">
-          About
-        </h1>
+    <div className="h-[500px] m-auto absolute w-full ">
+      <div
+        id="about"
+        className="max-w-[900px] pb-10 m-auto flex flex-wrap gap-2 "
+      >
         {dataArray.map((items, id) => (
           <AboutItem
             key={id}
@@ -36,6 +41,10 @@ const About = () => {
             tech4={items.tech4}
             tech5={items.tech5}
             tech6={items.tech6}
+            tech7={items.tech7}
+            tech8={items.tech8}
+            tech9={items.tech9}
+            tech10={items.tech10}
           />
         ))}
       </div>
