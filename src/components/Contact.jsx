@@ -31,7 +31,7 @@ const Contact = () => {
               className="cursor-pointer fill-gray-800"
             />
           </a>
-          <a href="https://github.com/AshleyDurano">
+          <a href="https://github.com/Ashley-dr">
             <FaGithub size={25} className="cursor-pointer fill-gray-800" />
           </a>
           <a href="https://www.instagram.com/ashleydurano/">
@@ -39,7 +39,7 @@ const Contact = () => {
           </a>
         </div>
         <h4 className="text-gray-700 mt-5 text-center font-bebos">
-          © 2023 PORTFOLIO BY ASHLEY RODRIGUEZ.
+          &copy; {new Date().getFullYear()} PORTFOLIO BY ASHLEY RODRIGUEZ.
         </h4>
       </div>
     </div>
