@@ -11,14 +11,15 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
-      <div className="">
+      <div className="xs:w-[1380px] sm:w-full h-full   bg-gradient-to-tr from-gray-950 via-gray-900 to-gray-800">
         <Sidenav />
+
         <Main />
-        <About />
+        {/* <About /> */}
 
-        <Projects />
+        {/* <Projects /> */}
 
-        <Contact />
+        {/* <Contact /> */}
       </div>
     </>
   );

@@ -4,8 +4,8 @@ import { TbBrandGmail } from "react-icons/tb";
 import { FaFacebookSquare, FaGithub, FaInstagram } from "react-icons/fa";
 const Contact = () => {
   return (
-    <div className="h-[500px] m-auto absolute w-full mt-[260rem]">
-      <div id="contact" className="max-w-[800px] pb-20 m-auto">
+    <div className=" m-auto  w-full ">
+      <div id="contact" className="max-w-[800px] pb-32 m-auto pt-32">
         <h1 className=" font-bold font-bebas text-emerald-200 text-center mb-10">
           Connect with me.
         </h1>
@@ -28,17 +28,17 @@ const Contact = () => {
           <a href="https://www.facebook.com/ashleydiligwapo/">
             <FaFacebookSquare
               size={25}
-              className="cursor-pointer fill-gray-800"
+              className="cursor-pointer fill-white-800"
             />
           </a>
           <a href="https://github.com/Ashley-dr">
-            <FaGithub size={25} className="cursor-pointer fill-gray-800" />
+            <FaGithub size={25} className="cursor-pointer fill-gray-100" />
           </a>
           <a href="https://www.instagram.com/ashleydurano/">
-            <FaInstagram size={25} className="cursor-pointer fill-gray-800" />
+            <FaInstagram size={25} className="cursor-pointer fill-gray-100" />
           </a>
         </div>
-        <h4 className="text-gray-700 mt-5 text-center font-bebos">
+        <h4 className="text-gray-100 mt-5 text-center font-bebas font-thin text-sm">
           &copy; {new Date().getFullYear()} PORTFOLIO BY ASHLEY RODRIGUEZ.
         </h4>
       </div>

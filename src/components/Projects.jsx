@@ -7,6 +7,8 @@ import project3 from "../assets/sample3.jpg";
 import ctu from "../assets/ctu-removebg.png";
 import coffee from "../assets/coffe-removebg.png";
 import blog from "../assets/blog-removebg.png";
+
+import ScrollAnimation from "react-animate-on-scroll";
 const Projects = () => {
   const dataArray = [
     {
@@ -103,12 +105,12 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="h-[500px] m-auto absolute w-full grid justify-items-center mt-64">
+    <div className="m-auto  w-full grid justify-items-center ">
       <div
         id="projects"
-        className="max-w-[900px] pb-10 pt-[600px] m-auto flex flex-wrap gap-2 "
+        className="max-w-[900px] pb-10  m-auto flex flex-wrap gap-2 pt-10"
       >
-        <h1 className="mx-16 font-bold align-center text-emerald-200 font-bebas mb-10 m-auto">
+        <h1 className="mx-16 font-bold align-center text-3xl text-emerald-200 font-bebas mb-10 m-auto">
           Projects
         </h1>
         <div className="grid gap-32 grid-cols-1 justify-center">

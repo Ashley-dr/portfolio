@@ -20,30 +20,15 @@ const AboutItem = ({
   tech10,
 }) => {
   return (
-    <div className="mt-64">
-      <div className="grid grid-cols-2  w-full max-w-[500px]   mx-14 lg:mx-44 ">
-        <img
-          src={images}
-          className="shrink-0 overflow-hidden outline outline-emerald-300 outline-offset-8 w-32 rounded-full  ml-3 mt-10 "
-        />
-
+    <div className="">
+      <div className=" ">
         <div className="w-[370px]  flex flex-wrap gap-2  ">
-          <span className="inline-block px-2 bg-emerald-300 rounded-md font-semibold text-gray-600">
-            {year}
-          </span>
-          <span className="inline-block px-2 bg-emerald-300 rounded-md font-semibold text-gray-600">
-            {title}
-          </span>
-          <span className="inline-block px-2 bg-emerald-300 rounded-md font-semibold text-gray-600">
-            {duration}
-          </span>
-          <br></br>
-          <span className=" ssm:text-lg lg:text-sm text-gray-200 font-bebos font-medium mb-5 mt-5">
-            {details}
+          <span className=" ssm:text-lg lg:text-sm text-gray-200 font-bebos font-medium mb-5 mt-5 flex flex-col gap-5">
+            <p className="border-t pt-2">{details}</p>
           </span>
 
-          <span className=" inline-block px-3 bg-emerald-300/60 rounded-md font-semibold text-green-100 py-2">
-            My Tech Stacks:
+          <span className=" inline-block px-3rounded-md text-sm text-green-100 py-2 border-t ">
+            Tech Stacks:
           </span>
           <div className="ssm:text-lg lg:text-sm space-x-2 space-y-2">
             {[
@@ -62,7 +47,7 @@ const AboutItem = ({
                 tech && (
                   <span
                     key={index}
-                    className="inline-block px-2 bg-emerald-200 rounded-md font-semibold text-gray-800 py-2"
+                    className="inline-block px-2 bg-emerald-300 rounded-xs  text-gray-800 py-2 font-thin"
                   >
                     {tech}
                   </span>

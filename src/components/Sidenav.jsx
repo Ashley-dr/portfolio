@@ -31,23 +31,8 @@ const Sidenav = () => {
         cursor-pointer 
         hover:scale-105 ease-in duration-200"
           >
-            <AiOutlineHome className="text-teal-50" size={20} />
-            <span className="pl-3 text-teal-50">Homes</span>
-          </a>
-
-          <a
-            href="#about"
-            className="
-        w-[75%] 
-        flex justify-center items-center 
-        bg-gradient-to-r from-cyan-500 to-blue-500
-        p-3 m-3
-        rounded-lg 
-        cursor-pointer 
-        hover:scale-105 ease-in duration-200"
-          >
             <SiAboutdotme className="text-teal-50" size={20} />
-            <span className="pl-3 text-teal-50">About</span>
+            <span className="pl-3 text-teal-50">Homes</span>
           </a>
 
           <a
@@ -96,21 +81,9 @@ const Sidenav = () => {
         cursor-pointer 
         hover:scale-105 ease-in duration-200"
         >
-          <AiOutlineHome className="text-teal-50" size={20} />
-        </a>
-        <a
-          href="#about"
-          className="
-        w-[75%] 
-        flex justify-center items-center 
-        bg-gradient-to-r from-cyan-500 to-blue-500
-        p-3 m-3
-        rounded-lg 
-        cursor-pointer 
-        hover:scale-105 ease-in duration-200"
-        >
           <SiAboutdotme className="text-teal-50" size={20} />
         </a>
+
         <a
           href="#projects"
           className="

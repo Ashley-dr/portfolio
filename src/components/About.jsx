@@ -7,7 +7,7 @@ const dataArray = [
     title: "Male",
     duration: "23 years old",
     details:
-      "Hi, I'm Ashley Durano Rodriguez from Guinsay, Danao City, Cebu. I'm a 4th-year Bachelor of Science in Information Technology student, specializing in Programming with a focus on Web Development. As a student, I'm eager to learn and grow. I've already gained some experience by working on small development projects, which I believe are valuable stepping stones toward bigger opportunities.",
+      "Hi, I'm Ashley Durano Rodriguez living in Guinsay, Danao City, Cebu. from Cebu technological University pursuing Bachelor of Science in Information Technology, specializing in Programming with a focus on Web Development. I'm eager to learn and grow. I've already gained some experience by working on small development projects, which I believe are valuable stepping stones toward bigger opportunities.",
     tech1: "Tailwindcss",
     tech2: "JavaScript",
     tech3: "ReactJS",
@@ -23,7 +23,7 @@ const dataArray = [
 
 const About = () => {
   return (
-    <div className="h-[500px] m-auto absolute w-full ">
+    <div className="">
       <div
         id="about"
         className="max-w-[900px] pb-10 m-auto flex flex-wrap gap-2 "
